@@ -1,3 +1,6 @@
+// from here
+// https://doc.rust-lang.org/rust-by-example/error/result.html
+
 fn parse_string(first_number_str: &str) -> i32 {
     // Let's try using `unwrap()` to get the number out. Will it bite us?
     let first_number = first_number_str.parse::<i32>().unwrap();
